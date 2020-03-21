@@ -156,6 +156,7 @@
     pagination.innerHTML = pageItemContent
   }
   
+  
   function getPageData (pageNum, data) {
     paginationData = data || paginationData
     let offset = (pageNum - 1) * ITEM_PER_PAGE
